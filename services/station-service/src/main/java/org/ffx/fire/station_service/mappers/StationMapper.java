@@ -1,7 +1,7 @@
 package org.ffx.fire.station_service.mappers;
 
 import org.ffx.fire.models.station.StationListItem;
-import org.ffx.fire.station_service.entitiy.StationListItemEntity;
+import org.ffx.fire.station_service.entity.StationListItemEntity;
 import org.springframework.stereotype.Component;
 
 @Component

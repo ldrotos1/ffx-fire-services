@@ -1,4 +1,4 @@
-package org.ffx.fire.station_service.entitiy;
+package org.ffx.fire.station_service.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
