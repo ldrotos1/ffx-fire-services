@@ -1,3 +1,4 @@
 include ':api'
 include ':services:station-service'
+include ':services:apparatus-service'
 include ':models'

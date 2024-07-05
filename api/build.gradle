@@ -20,6 +20,7 @@ repositories {
 dependencies {
 	implementation project(':models')
 	implementation project(':services:station-service')
+	implementation project(':services:apparatus-service')
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
