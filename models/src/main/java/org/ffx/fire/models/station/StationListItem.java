@@ -40,4 +40,5 @@ public class StationListItem {
 		return "StationListItem [stationDesignator=" + stationDesignator + ", stationNumber=" + stationNumber
 				+ ", stationName=" + stationName + ", battalion=" + battalion + ", division=" + division + "]";
 	}
+	
 }

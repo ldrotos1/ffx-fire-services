@@ -25,6 +25,7 @@ repositories {
 
 dependencies {
 	implementation project(':models')
+	implementation project(':services:apparatus-service')
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
