@@ -15,7 +15,7 @@ public class SecurityConfig {
   @Bean
   public SecurityFilterChain configure(HttpSecurity http) throws Exception {
     http.authorizeHttpRequests(req -> req.anyRequest().authenticated());
-    http.x509(cert -> cert.subjectPrincipalRegex("CN=(.*?)(?:,|$)").userDetailsService(userDetailsService()));
+    http.x509(cert -> cert.subjectPrincipalRegex("emailAddress=(.*?)(?:,|$)").userDetailsService(userDetailsService()));
     return http.build();
   }
 
